@@ -1,0 +1,33 @@
+{
+    "action": {
+        "default_icon": {
+            "19": "icon19.png",
+            "38": "icon38.png"
+        },
+        "default_title": "Tip in Doge"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "default_locale": "en",
+    "description": "__MSG_extension_description__",
+    "homepage_url": "https://what-is-dogecoin.com",
+    "host_permissions": [ "http://*/*", "https://*/*" ],
+    "icons": {
+        "128": "icon128.png",
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png"
+    },
+    "manifest_version": 3,
+    "name": "__MSG_extension_name__",
+    "version": "420.69.0",
+    "options_ui": {
+        "page": "options.html"
+    },
+    "permissions": [ "tabs", "contextMenus", "scripting", "storage" ],
+    "web_accessible_resources": [ {
+        "matches": [ "http://*/*", "https://*/*" ],
+        "resources": [ "*.png", "*.css", "*.svg" ]
+    } ]
+}

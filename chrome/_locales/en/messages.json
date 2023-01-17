@@ -1,0 +1,10 @@
+{
+   "extension_description": {
+      "description": "Description of what the extension does.",
+      "message": "Tip in Dogecoin on Social Media."
+   },
+   "extension_name": {
+      "description": "The display name for the extension.",
+      "message": "Tip in Dogecoin"
+   }
+}
